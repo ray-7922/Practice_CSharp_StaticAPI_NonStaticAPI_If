@@ -183,6 +183,23 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 90077755}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &90077757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90077756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a01823aa8eba9742bfc1f3059f999c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 20
+  Attack: 0
+  ZOM: {fileID: 90077758}
+  ZOMTWO: {fileID: 8300000, guid: b2814898b8005b04dbb2fadf2cf26112, type: 3}
+  playNOW: {fileID: 1284488706}
 --- !u!82 &90077758
 AudioSource:
   m_ObjectHideFlags: 0
@@ -433,6 +450,23 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1284488704}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1284488706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284488705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bd70f877ca141c4fa400388955c9576, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 20
+  Attack: 0
+  MU: {fileID: 1284488707}
+  playerMU: {fileID: 8300000, guid: e5596bb1fd662e5418d0d33c355a4478, type: 3}
+  zombieNOW: {fileID: 90077757}
 --- !u!82 &1284488707
 AudioSource:
   m_ObjectHideFlags: 0
